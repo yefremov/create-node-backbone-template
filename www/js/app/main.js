@@ -1,8 +1,4 @@
-define(function (require) {
-    // Load any app-specific modules
-    // with a relative require call,
-    // like:
-    // var util = require('./util');
+define(function ( require ) {
+  'use strict';
 
-    console.log('Hello world');
 });
