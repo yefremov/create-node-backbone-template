@@ -1,5 +1,3 @@
-'use strict';
-
 var path    = require( 'path' )
   , express = require( 'express' )
   , app     = express();
