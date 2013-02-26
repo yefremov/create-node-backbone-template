@@ -1,9 +1,6 @@
-var path    = require( 'path' )
-  , express = require( 'express' )
+var express = require( 'express' )
   , app     = express();
 
-app.configure(function () {
-  app.use( express.static( path.join(__dirname, 'www')) );
-});
+app.use( express.static( __dirname + '/www' ) );
 
 app.listen( 3000 );
