@@ -1,21 +1,23 @@
 {
+  "dependencies": {
+    "express": "~3.1.0",
+    "requirejs": "~2.1.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "chai": "~1.5.0",
+    "sinon": "~1.6.0"
+  },
+  "amd": {},
+  "volo": {
+    "baseUrl": "www/js/lib",
     "dependencies": {
-        "express": "~3.1.0",
-        "requirejs": "~2.1.4"
-    },
-    "devDependencies": {
-        "mocha": "~1.8.1",
-        "chai": "~1.5.0",
-        "sinon": "~1.6.0"
-    },
-    "amd": {},
-    "volo": {
-        "baseUrl": "www/js/lib",
-        "dependencies": {
-            "jquery": "github:jquery/jquery/1.9.1",
-            "underscore": "github:amdjs/underscore/1.4.4",
-            "backbone": "github:amdjs/backbone/0.9.10",
-            "lodash": "github:bestiejs/lodash/v1.0.1"
-        }
+      "require": "github:jrburke/requirejs/2.1.5",
+      "text": "github:requirejs/text/2.0.5",
+      "jquery": "github:jquery/jquery/1.9.1",
+      "underscore": "github:amdjs/underscore/1.4.4",
+      "backbone": "github:amdjs/backbone/1.0.0",
+      "lodash": "github:bestiejs/lodash/v1.1.1"
     }
+  }
 }
