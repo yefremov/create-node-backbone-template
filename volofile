@@ -3,16 +3,9 @@
 
 module.exports = {
   'build': {
-    'flags': {
-      'q': 'quiet'
-    }
-
+    'flags': {}
   , 'run': function ( d, v, namedArgs ) {
-      v.rm( 'www-built' );
-
-      d.resolve(v.spawn('node', [ 'tools/r.js', '-o', 'tools/build.js' ], {
-        'useConsole': !namedArgs.quiet
-      }));
+      d.resolve();
     }
   }
 };
